@@ -3,4 +3,4 @@
   entry: python sort_makefile/sort_makefile.py
   language: python
   pass_filenames: false
-  args: ['Makefile']
+  args: [filepath]

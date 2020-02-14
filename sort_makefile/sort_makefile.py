@@ -17,12 +17,7 @@ if __name__ == "__main__":
         with open(makefile_path, "r") as f:
             makefile_content = f.read()
     except IOError as e:
-        print(
-            """
-            Please make sure that Makefile is in main project directory and
-            that this script is in /scripts directory inside it.
-            """
-        )
+        print("Please make sure that you passed correct path fo a Makefile.")
         exit(-1)
 
     current = None
