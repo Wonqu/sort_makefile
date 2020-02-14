@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: sort_makefile
         name: sort_makefile
-        entry: python sort_makefile.py
+        entry: python sort_makefile/sort_makefile.py
         language: python
         pass_filenames: false
         args: ['Makefile']
