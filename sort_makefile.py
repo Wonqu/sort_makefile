@@ -5,7 +5,6 @@ Please take note that the targets must be formatted correctly
 for this to work.
 """
 import argparse
-import os
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Sort Makefile.')
