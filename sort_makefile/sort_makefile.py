@@ -6,7 +6,7 @@ for this to work.
 """
 import argparse
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description='Sort Makefile.')
     parser.add_argument('filepath', type=str, help='Path to makefile.')
     args = parser.parse_args()

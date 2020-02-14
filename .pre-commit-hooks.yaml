@@ -1,6 +1,6 @@
 - id: sort_makefile
   name: sort_makefile
-  entry: python sort_makefile/sort_makefile.py
+  entry: python sort_makefile
   language: python
   pass_filenames: false
   args: [filepath]
