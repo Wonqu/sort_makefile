@@ -10,6 +10,11 @@ setup(
       author='Radosław Zachar',
       license='MIT',
       packages=['sort_makefile'],
-      zip_safe=False
+      zip_safe=False,
+      entry_points={
+            "console_scripts": [
+                  "sort_makefile=sort_makefile.sort_makefile:main"
+            ]
+      }
 )
 
