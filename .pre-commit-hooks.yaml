@@ -2,5 +2,4 @@
   name: sort_makefile
   entry: sort_makefile
   language: python
-  pass_filenames: false
-  args: [filepath]
+  files: '[Mm]akefile'
