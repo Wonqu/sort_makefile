@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
       name='sort_makefile',
-      version='0.6',
+      version='0.9',
       description='Sort makefile.',
       url='http://github.com/Wonqu/sort_makefile',
       author='Radosław Zachar',

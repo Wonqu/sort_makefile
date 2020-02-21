@@ -2,4 +2,4 @@
   name: sort_makefile
   entry: sort_makefile
   language: python
-  files: '[Mm]akefile'
+  files: '^[Mm]akefile$'
